@@ -1,0 +1,356 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {300, 533}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : true,
+        "frame" : "{{0, 0}, {300, 240}}",
+        "class" : "ImageView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WHB",
+          "frame" : "{{110, 190}, {100, 100}}",
+          "background_color" : "RGBA(0.953184,0.953184,0.953184,1.000000)",
+          "class" : "ImageView",
+          "name" : "image_result",
+          "uuid" : "A878429D-C089-47D9-BCCE-2AEA2437CD31"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{0, 480}, {300, 53}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WT",
+          "action" : "prepare_daisyworld",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Run",
+          "uuid" : "BE609757-0170-4063-9FED-CABA82C68AEF",
+          "class" : "Button",
+          "font_bold" : true,
+          "background_color" : "RGBA(0.955056,0.955056,0.955056,1.000000)",
+          "name" : "button1",
+          "font_size" : 20
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 251}, {173, 42}}",
+        "class" : "Slider",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WHT",
+          "continuous" : true,
+          "action" : "update_sliders",
+          "frame" : "{{60, 223}, {200, 34}}",
+          "border_width" : 0,
+          "uuid" : "E0BB8592-6E6C-4916-81A4-205F5AD320C3",
+          "class" : "Slider",
+          "value" : 1,
+          "corner_radius" : 0,
+          "name" : "slider1"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 294.5}, {173, 40.5}}",
+        "class" : "Slider",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WHT",
+          "continuous" : true,
+          "action" : "update_sliders",
+          "frame" : "{{60, 223}, {200, 34}}",
+          "uuid" : "8C142DDF-2AEA-40B9-B697-DA6D0A2C20EE",
+          "class" : "Slider",
+          "value" : 0.05,
+          "name" : "slider2"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 337}, {173, 40}}",
+        "class" : "Slider",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WHT",
+          "continuous" : true,
+          "action" : "update_sliders",
+          "frame" : "{{60, 223}, {200, 34}}",
+          "uuid" : "AA87D4E0-5971-415D-841C-9A2823990184",
+          "class" : "Slider",
+          "value" : 0.4,
+          "name" : "slider3"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 380}, {173, 39}}",
+        "class" : "Slider",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WHT",
+          "continuous" : true,
+          "action" : "update_sliders",
+          "frame" : "{{60, 223}, {200, 34}}",
+          "class" : "Slider",
+          "uuid" : "977E7117-4C83-4CF4-A13A-4F973B96AD16",
+          "value" : 0.75,
+          "name" : "slider4"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{187, 251}, {53, 42}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "HLT",
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "A3A7E2D7-1D96-46BD-A961-ECF80E5B30D9",
+          "text" : "Label",
+          "alignment" : "left",
+          "class" : "Label",
+          "name" : "valuelabel1",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{187, 294.5}, {53, 40.5}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "HLT",
+          "font_name" : "<System>",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "A3A7E2D7-1D96-46BD-A961-ECF80E5B30D9",
+          "text" : "Label",
+          "alignment" : "left",
+          "class" : "Label",
+          "name" : "valuelabel2",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{187, 337}, {53, 40}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "HLT",
+          "font_name" : "<System>",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "A3A7E2D7-1D96-46BD-A961-ECF80E5B30D9",
+          "text" : "Label",
+          "alignment" : "left",
+          "class" : "Label",
+          "name" : "valuelabel3",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{187, 380}, {53, 39}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "HLT",
+          "font_name" : "<System>",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "A3A7E2D7-1D96-46BD-A961-ECF80E5B30D9",
+          "text" : "Label",
+          "alignment" : "left",
+          "class" : "Label",
+          "name" : "valuelabel4",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{238, 251}, {56, 42}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "HLT",
+          "alpha" : 1,
+          "font_name" : "<System-Bold>",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "A3A7E2D7-1D96-46BD-A961-ECF80E5B30D9",
+          "text" : "fert",
+          "alignment" : "left",
+          "class" : "Label",
+          "number_of_lines" : 0,
+          "name" : "label1",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{238, 294.5}, {56, 40.5}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "HLT",
+          "font_name" : "<System-Bold>",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "A3A7E2D7-1D96-46BD-A961-ECF80E5B30D9",
+          "text" : "T_l",
+          "alignment" : "left",
+          "class" : "Label",
+          "name" : "label2",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{238, 337}, {56, 40}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "HLT",
+          "font_name" : "<System-Bold>",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "A3A7E2D7-1D96-46BD-A961-ECF80E5B30D9",
+          "text" : "T_u",
+          "alignment" : "left",
+          "class" : "Label",
+          "name" : "label3",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{238, 380}, {56, 39}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "HLT",
+          "font_name" : "<System-Bold>",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "A3A7E2D7-1D96-46BD-A961-ECF80E5B30D9",
+          "text" : "wdalb",
+          "alignment" : "left",
+          "class" : "Label",
+          "name" : "label4",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 422.5}, {173, 38.5}}",
+        "class" : "Slider",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WHT",
+          "continuous" : true,
+          "action" : "update_sliders",
+          "frame" : "{{60, 223}, {200, 34}}",
+          "class" : "Slider",
+          "uuid" : "977E7117-4C83-4CF4-A13A-4F973B96AD16",
+          "value" : 0.25,
+          "name" : "slider5"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{187, 422.5}, {53, 38.5}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "HLT",
+          "name" : "valuelabel5",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "A3A7E2D7-1D96-46BD-A961-ECF80E5B30D9",
+          "text" : "Label",
+          "alignment" : "left",
+          "class" : "Label",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{238, 422.5}, {56, 38.5}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "HLT",
+          "name" : "label5",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "A3A7E2D7-1D96-46BD-A961-ECF80E5B30D9",
+          "text" : "bdalb",
+          "alignment" : "left",
+          "class" : "Label",
+          "font_size" : 18,
+          "font_name" : "<System-Bold>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 492}, {35, 35}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WHRT",
+          "action" : "reset_slider_values",
+          "name" : "resetbutton",
+          "frame" : "{{110, 251}, {80, 32}}",
+          "title" : "Reset",
+          "class" : "Button",
+          "uuid" : "4FDC05B8-B236-4392-959B-62B5B2285D08",
+          "font_size" : 15,
+          "image_name" : "iob:ios7_undo_256"
+        }
+      }
+    ],
+    "attributes" : {
+      "name" : "Daisyworld Interface",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
