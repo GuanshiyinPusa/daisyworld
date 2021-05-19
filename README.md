@@ -1,9 +1,9 @@
 # Interactive Daisyworld
 
 <p align="center">
-  <img src="https://github.com/mrernst/daisyworld/blob/master/imgs/phone1.PNG" width="100">
-  <img src="https://github.com/mrernst/daisyworld/blob/master/imgs/phone2.PNG" width="100">
-  <img src="https://github.com/mrernst/daisyworld/blob/master/imgs/phone3.PNG" width="100">
+  <img src="https://raw.githubusercontent.com/mrernst/daisyworld/main/imgs/phone1.png" width="100">
+  <img src="https://raw.githubusercontent.com/mrernst/daisyworld/main/imgs/phone2.png" width="100">
+  <img src="https://raw.githubusercontent.com/mrernst/daisyworld/main/imgs/phone3.png" width="100">
   
 
 Interactive daisyworld is a python implementation of the famous [daisyworld computer simulation](https://en.wikipedia.org/wiki/Daisyworld). It describes a hypothetical world orbiting a star, whose radiant energy slowly increases over time. The world has two types of daisies (black and white) as it's only life form. The population of daisies can modify the worlds albedo and thereby migitage the effects arising from the increasing radiant energy of the star. The concept was first described by [Watson and Lovelock (1983)](https://doi.org/10.1111%2Fj.1600-0889.1983.tb00031.x) [1]
