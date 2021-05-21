@@ -27,6 +27,8 @@ Tellus, v. 35B, p. 284-289.
 
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
+%matplotlib inline
 import time
 from io import BytesIO
 
@@ -34,21 +36,28 @@ from io import BytesIO
 # helper functions
 # -----
 
+# helper functions
+# -----
+
 def plot_world_trajectory(tmax, dt, daisydict, X, planet_temp):
+    palette = sns.color_palette("Blues",10)
     tr = np.arange(0, tmax+dt, dt)
     #print(tr.shape)
     plt.subplot(2, 1, 1)
-    for daisy in daisydict.values():
-        plt.plot(tr, daisy, 'c-')
-    plt.plot(tr, X, 'g-')
+    for i, daisyname in enumerate(daisydict):
+        plt.plot(tr, daisydict[daisyname], '-', color=palette[i+3+i*3], label=daisyname)
+    plt.plot(tr, X, 'g--', label='fertile')
     plt.title('Daisyworld Output')
-    plt.ylabel('% of area covered with daisies')
-    
+    plt.ylabel('% of area\ncovered with daisies')
+    plt.legend()
+
+
     plt.subplot(2, 1, 2)
     plt.plot(tr, planet_temp, 'r-')
     plt.xlabel('time(yr)')
-    plt.ylabel('temperature of the planet')
+    plt.ylabel('temperature\nof the planet')
     
+    #plt.legend()
     plt.show()
 
 
